@@ -8,7 +8,12 @@ module.exports = {
   extends: ['eslint:recommended', 'google'],
   rules: {
     'semi': 'off',
-    'max-len': ['error', {'code': 100}],
-    'comma-dangle': 'off'
+    'max-len': ['error', { 'code': 100 }],
+    'comma-dangle': 'off',
+    'require-jsdoc': 'off',
+    'operator-linebreak': 'off',
+    'object-curly-spacing': ['error', 'always'],
+    'arrow-parens': ['error', 'as-needed'],
+    'linebreak-style': ['error', 'unix'],
   },
 }
