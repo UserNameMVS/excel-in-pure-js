@@ -23,7 +23,7 @@ module.exports = (env, argv) => {
           },
         ],
       }),
-      new MiniCssExtractPlugin({filename: filename('css')}),
+      new MiniCssExtractPlugin({ filename: filename('css') }),
       new ESLintPlugin(),
     ]
 
